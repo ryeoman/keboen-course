@@ -12,6 +12,9 @@
 		4BA2BA5722582B6300879991 /* SlideUpMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA5622582B6300879991 /* SlideUpMenuViewController.swift */; };
 		4BA2BA5922583F5600879991 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA5822583F5600879991 /* SplitViewController.swift */; };
 		4BA2BA5B2258428000879991 /* SplitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA5A2258428000879991 /* SplitDetailViewController.swift */; };
+		4BA2BA5D2258525800879991 /* CustomScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA5C2258525800879991 /* CustomScaleSegue.swift */; };
+		4BA2BA5F225854B600879991 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA5E225854B600879991 /* OneViewController.swift */; };
+		4BA2BA61225854C100879991 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA2BA60225854C100879991 /* TwoViewController.swift */; };
 		4BF55C15224F7B41000EAB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF55C14224F7B41000EAB8E /* AppDelegate.swift */; };
 		4BF55C17224F7B41000EAB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF55C16224F7B41000EAB8E /* ViewController.swift */; };
 		4BF55C1A224F7B41000EAB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF55C18224F7B41000EAB8E /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 		4BA2BA5622582B6300879991 /* SlideUpMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpMenuViewController.swift; sourceTree = "<group>"; };
 		4BA2BA5822583F5600879991 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		4BA2BA5A2258428000879991 /* SplitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitDetailViewController.swift; sourceTree = "<group>"; };
+		4BA2BA5C2258525800879991 /* CustomScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScaleSegue.swift; sourceTree = "<group>"; };
+		4BA2BA5E225854B600879991 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		4BA2BA60225854C100879991 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		4BF55C11224F7B41000EAB8E /* keboen-course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keboen-course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF55C14224F7B41000EAB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF55C16224F7B41000EAB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 				4BA2BA5622582B6300879991 /* SlideUpMenuViewController.swift */,
 				4BA2BA5822583F5600879991 /* SplitViewController.swift */,
 				4BA2BA5A2258428000879991 /* SplitDetailViewController.swift */,
+				4BA2BA5C2258525800879991 /* CustomScaleSegue.swift */,
+				4BA2BA5E225854B600879991 /* OneViewController.swift */,
+				4BA2BA60225854C100879991 /* TwoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA2BA5F225854B600879991 /* OneViewController.swift in Sources */,
+				4BA2BA5D2258525800879991 /* CustomScaleSegue.swift in Sources */,
 				4BF55C17224F7B41000EAB8E /* ViewController.swift in Sources */,
 				4BA2BA5722582B6300879991 /* SlideUpMenuViewController.swift in Sources */,
 				4BA2BA5422582A2B00879991 /* MainTodoViewController.swift in Sources */,
+				4BA2BA61225854C100879991 /* TwoViewController.swift in Sources */,
 				4BF55C1D224F7B41000EAB8E /* keboen_course.xcdatamodeld in Sources */,
 				4BF55C15224F7B41000EAB8E /* AppDelegate.swift in Sources */,
 				4BA2BA5922583F5600879991 /* SplitViewController.swift in Sources */,
